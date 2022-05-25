@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fabrooms</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/serchbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid" >
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Fabrooms</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="hotels/hotels.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Hotels
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="hotels/hotels.html">Hostel</a>
+                <a class="dropdown-item" href="hotels/hotels.html">House</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="hotels/hotels.html">PG's</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog-layout/blog-layout.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact section/contact section/contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="loginpage/login.html">Login</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6" id="main">
+          <h1 class="big-heading">Find Hostel and PG's nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6" id="main">
+          <img class="title-image" src="images/hotel_feture_1.jpg" alt="iphone-mockup">
+        </div>
+
+      </div>
+      <div class="searchbar">
+      <form id="search">
+        <i class="fas fa-search fa-2x" id="searchicon"></i><input type="text" name="search" placeholder="Search by location..">
+      </form>
+    </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the customers, the good one's.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to safety.</h3>
+          <p>Find the best hostel of your life or your money back.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="counters">
+    <div class="container">
+      <div>
+        <div class="counter" data-target="60000">0</div>
+        <h3>User Access</h3>
+      </div>
+      <div>
+        
+        <div class="counter" data-target="15000">0</div>
+        <h3>Hotels</h3>
+      </div>
+      <div>
+     
+        <div class="counter" data-target="9000">0</div>
+        <h3>Transcations</h3>
+      </div>
+      <div>
+        
+        <div class="counter" data-target="5000">0</div>
+        <h3>Rating & Reviews</h3>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Great space with a nice outdoor terrace. The private room was very clean and spacious. The owner Vasu is wonderful. He helped us get our sim cards sorted and even gave us his number.</h2>
+          <img class="testimonial-image" src="images/angela.png" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Extreme helpful people and great atmosphere 
+            Great place to meet new friends </h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I felt extremely safe. The main door was locked at all times but reception could buzz you in 24/7. Clean environment. Nice patio on the roof with plants :)</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Featured Hostel's</h2>
+    <p>Simple and affordable Hostel's for you in affordable prices.</p>
+
+    <div class="container1">
+      <div class="image">
+          <img src="images/hotel_feture_1.jpg">
+      </div>
+      <h3>Hostel sunshine</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sunt labore, et cumque, nostrum magni,
+          voluptatibus omnis libero repellat aut delectus iure harum. Reiciendis ratione alias quas excepturi impedit
+          perspiciatis.
+      </p>
+      <a href="pratical5-html.html">Book Now</a>
+
+
+
+
+  </div>
+  <div class="container1">
+      <div class="image">
+          <img src="images/hotel_feture_2.jpg">
+      </div>
+      <h3>Hostel Sushine</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sunt labore, et cumque, nostrum magni,
+          voluptatibus omnis libero repellat aut delectus iure harum. Reiciendis ratione alias quas excepturi impedit
+          perspiciatis.</p>
+      <a href="pratical5-css.html">Book Now</a>
+
+
+
+
+  </div>
+  <div class="container1">
+      <div class="image">
+          <img src="images/hotel_feture_3.jpg">
+      </div>
+      <h3>Hostel Sunshine</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sunt labore, et cumque, nostrum magni,
+          voluptatibus omnis libero repellat aut delectus iure harum. Reiciendis ratione alias quas excepturi impedit
+          perspiciatis.</p>
+      <a href="pratical5-js.html">Book Now</a>
+
+
+
+
+  </div>
+
+    
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Find your Application on the playstore and apple store </h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer1">
+      
+    <section class="sec-1">
+        <section class="about">
+            <h3 style="color: white;">ABOUT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit aliquam soluta, velit esse suscipit, autem illo architecto corporis odio temporibus deleniti beatae eaque sint nihil quam sit inventore? Sapiente.</p>
+        </section>
+    
+    <section class="Categories">
+        <h3 style="color: white;">CATEGORIES</h3>
+        <ul>
+            <li>
+                <a href="hotels/hotels.html">Hostel's</a>
+            </li>
+            <li>
+                <a href="hotels/hotels.html">PG's</a>
+            </li>
+            <li>
+                <a href="hotels/hotels.html">House</a>
+            </li>
+            <li>
+                <a href="hotels/hotels.html">Hotels</a>
+            </li>
+            
+        </ul>
+    </section>
+    <section class="Links">
+        <h3 style="color:white;">QUICK LINKS</h3>
+        <ul>
+            <li><a href="#" >About Us</a></li>
+            <li><a href="#" >Contact Us</a></li>
+            <li><a href="#" >Contribute</a></li>
+            <li><a href="#" >Privacy Policy</a></li>
+            <li><a href="#" >SiteMap</a></li>
+            <li><a href="#" >Disclaimer</a></li>
+        </ul>
+    </section>
+    <section class="Contact">
+        <h3 style="color:white;">CONTACT US</h3>
+        <ul>
+            <li><i class="fa fa-home"></i>  SCO-75 Chandigarh, India</li>
+            <li><i class="fa fa-envelope"></i> lifeis@gmail.com</li>
+            <li><i class="fa fa-phone "></i> Mobile no:9876543210</li>
+            <li><i class="fab fa-facebook-square"></i> Fabrooms</li>
+            
+        </ul>
+    </section>
+    </section>
+    
+    <section class="sec-2">
+        <p>Register for free <a href="signup/signup.html" >Sign Up!</a></p>
+    </section>
+    <section class="sec-3">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    <section class="sec-4"> 
+        <p>Copyright @ 2020 All Rights Reserved by Fabrooms.</p>
+    </section>
+</footer>
+<script src="js/counter.js"></script>
+
+</body>
+
+</html>
